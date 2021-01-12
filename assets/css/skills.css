@@ -5,7 +5,22 @@ body {
     padding-bottom: 5%;
   }
 
-  table, th, td {
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+
+  tr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  td {
     border: 1px solid black;
   }
   
