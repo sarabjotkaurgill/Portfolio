@@ -14,7 +14,7 @@ This is my portfolio.
      
 * Projects Page
 
-*Contact Page
+* Contact Page
      * Resume
      * Project Inventory
      * LinkedIn link
