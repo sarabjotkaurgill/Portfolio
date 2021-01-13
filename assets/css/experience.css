@@ -15,6 +15,10 @@ body {
     color: black;
   }
 
+  a:hover {
+    color: gray !important;
+  }
+
   h1 {
     text-align: center;
   }
@@ -44,6 +48,7 @@ body {
       width: 60px;
       height: 60px;
       position: relative;
+      cursor: pointer;
   }
   .close:after {
       content: '';
