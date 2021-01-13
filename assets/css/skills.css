@@ -1,8 +1,21 @@
+html {
+  background-color: rgb(24, 24, 23);
+}
+
 body {
     padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+  }
+
+  a {
+    color: black;
+  }
+
+  .imgg {
+    display: flex;
+    justify-content: center;
   }
 
   h1{
@@ -22,12 +35,21 @@ body {
 
   td {
     border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .card {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       padding-bottom: 40px;
+      background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     }
     
     .card:hover {

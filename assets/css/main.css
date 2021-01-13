@@ -7,6 +7,21 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.link {
+	color: black;
+}
+
+.projectimg {
+    background-position:center;
+    background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.projectimg:hover{
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1629,11 +1644,13 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
+			border: 2px solid black;
 		}
 
 		.image.fit {
@@ -1680,7 +1697,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: white !important;
 		text-decoration: none;
 		font-weight: 700;
 		border: 0;
@@ -1690,7 +1707,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: black;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1701,8 +1718,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
-			color: #fff !important;
+			background-color: lightgray;
+			color: black !important;
 		}
 
 		input[type="button"]:active,
@@ -1710,7 +1727,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: lightgray;
 			top: 1px;
 		}
 

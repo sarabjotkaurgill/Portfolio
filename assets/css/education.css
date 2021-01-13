@@ -1,9 +1,17 @@
+html {
+  background-color: rgb(24, 24, 23);
+}
+
 body {
   text-align: center;
   padding-top: 5%;
   padding-right: 5%;
   padding-left: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%; 
+}
+
+a {
+  color: black;
 }
 
 .card {
@@ -11,6 +19,11 @@ body {
     transition: 0.3s;
     text-align: center;
     padding-bottom: 40px;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   
   .card:hover {
