@@ -23,7 +23,7 @@ This is my portfolio.
      * Location
 
 
-## Technoogies Used:
+## Technologies Used:
 
 1. HTML
 2. CSS
