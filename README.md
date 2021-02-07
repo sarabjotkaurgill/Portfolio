@@ -16,7 +16,6 @@ This is my portfolio.
 
 * Contact Page
      * Resume
-     * Project Inventory
      * LinkedIn link
      * Github link
      * Gmail address
