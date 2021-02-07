@@ -16,14 +16,13 @@ This is my portfolio.
 
 * Contact Page
      * Resume
-     * Project Inventory
      * LinkedIn link
      * Github link
      * Gmail address
      * Location
 
 
-## Technoogies Used:
+## Technologies Used:
 
 1. HTML
 2. CSS
